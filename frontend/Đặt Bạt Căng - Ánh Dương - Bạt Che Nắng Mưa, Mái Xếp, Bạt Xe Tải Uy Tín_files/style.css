@@ -1,0 +1,150 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+:root {
+    --primary-color: #017ec3; /* Change this to your desired primary color */
+    --font-size-60px: 60px; /* Change this to your desired font size */
+    --font-size-30px: 30px; /* Change this to your desired font size */
+}
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.class-icon4 i {
+    font-size: var(--font-size-60px);
+}
+h3.title-h3 {
+    font-size: var(--font-size-30px);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #017ec3;
+}
+a.button.white span {
+    color: #000;
+    font-weight: 400;
+}
+ul#menu-menu-danh-muc a {
+    color: #000;
+}
+ul.nav.header-nav.header-bottom-nav.nav-center.nav-uppercase a {
+    font-weight: 400;
+    padding: 0px 10px;
+}
+ul#header-contact a, ul#header-contact i {
+    font-weight: 400;
+    color: #017ec3;
+}
+.header-vertical-menu__opener {
+    background-color: #017ec3;
+
+}
+ul#header-contact i {
+    font-weight: 400;
+    color: #017ec3;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    background: #017ec3;
+    width: 100%;
+    font-weight: 400;
+}
+.custom-form7 input {
+    box-shadow: unset;
+    background: #eee;
+}
+.custom-form7 label {
+    font-weight: 400;
+    font-size: 15px;
+}
+img.ux-menu-icon {
+    filter: invert(37%) sepia(97%) saturate(750%) hue-rotate(269deg) brightness(90%) contrast(90%);
+}
+h5.post-title.is-large {
+    font-weight: 400;
+}
+.tintuc_lq h3.section-title.section-title-normal {
+    font-weight: 400;
+}
+.entry-header-text.entry-header-text-top.text-center h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.entry-divider.is-divider.small, .is-divider, .absolute-footer.dark.medium-text-center.small-text-center {
+    display: none;
+}
+.bao-gia-bat-container h1,
+.bao-gia-bat-container h2,
+.bao-gia-bat-container h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: #017ec3;
+}
+footer#footer h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+.check-list {
+    list-style: none;
+    /* Ẩn dấu chấm mặc định */
+    padding: 0;
+    margin: 0;
+}
+
+.check-list li {
+    position: relative;
+    padding-left: 30px;
+    /* Chừa khoảng trống cho icon */
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.check-list li::before {
+    content: "\f00c";
+    /* Mã unicode của icon check trong Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    /* Font Awesome */
+    font-weight: 900;
+    /* Bold icon */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #28a745;
+    /* Màu xanh lá cây đẹp */
+    font-size: 18px;
+}
+li.html.header-button-1 a.button.secondary {
+    background: linear-gradient(270deg, #017ec3, #ff5252);
+    background-size: 400% 400%;
+    font-weight: 400;
+    border-radius: 5px;
+    animation: waveBackground 8s ease infinite;
+    color: #fff;
+    /* Chữ trắng cho dễ nhìn */
+}
+
+/* Tạo hiệu ứng lượn sóng */
+@keyframes waveBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}

@@ -2,8 +2,8 @@ services:
   postgres:
     image: 'postgres:15'
     environment:
-      - 'POSTGRES_DB=mydatabase'
-      - 'POSTGRES_PASSWORD=secret'
-      - 'POSTGRES_USER=myuser'
+      - 'POSTGRES_DB=tarpaulindb'
+      - 'POSTGRES_USER=app_user'
+      - 'POSTGRES_PASSWORD=app_password'
     ports:
       - '5432'
